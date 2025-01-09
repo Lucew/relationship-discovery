@@ -65,7 +65,7 @@ def create_tikz_src(counts: np.ndarray, bins: np.ndarray, min_val: int, max_val:
 
 def main_old():
     # load the data into memory
-    datasets = rspi.load_results(os.path.join("..", "results"))
+    datasets = rspi.load_results(os.path.join("", "results"))
 
     # go through all datasets and find the spis that completed for all datasets
     spis = list(functools.reduce(lambda x, y: x & y, (set(data.index) for data in datasets.values())))
@@ -107,7 +107,7 @@ def main_old():
             # create the tikz source
             tikz_src.append(create_tikz_src(*hist, *min_max_vals[col], rx=dx, cx=cdx))
 
-    with open('absolute_results.tex', 'w') as f:
+    with open('visualization/absolute_results.tex', 'w') as f:
         f.write(insert_histograms_in_tikz(tikz_src))
 
 
@@ -201,7 +201,7 @@ def list_to_str(numbers: list[float]):
 
 def main():
     # load the data into memory
-    datasets = rspi.load_results(os.path.join("..", "results"))
+    datasets = rspi.load_results("")
 
     # go through all datasets and find the spis that completed for all datasets
     spis = list(functools.reduce(lambda x, y: x & y, (set(data.index) for data in datasets.values())))
@@ -214,7 +214,7 @@ def main():
     datasets = {key: df.loc[spis, metrics] for key, df in datasets.items()}
     table_str = fill_table(datasets)
 
-    with open('absolute_results.tex', 'w') as f:
+    with open('plots/absolute_results.tex', 'w') as f:
         f.write(table_str)
 
 
