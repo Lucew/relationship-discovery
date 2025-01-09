@@ -1,0 +1,30 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/33/config.yaml
+*** Importing module .statistics.distance
+[0] Adding SPI .statistics.distance.PairwiseDistance(x,y,{'metric': 'cosine'})
+Succesfully initialised SPI with identifier "pdist_cosine" and labels ['unsigned', 'distance', 'unordered', 'nonlinear', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: pdist_cosine]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: pdist_cosine]: 100%|██████████| 1/1 [00:00<00:00, 234.46it/s]
+
+Calculation complete. Time taken: 0.0043s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 12.703025039285421 Seconds

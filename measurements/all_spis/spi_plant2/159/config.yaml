@@ -1,0 +1,13 @@
+.statistics.spectral:
+  DirectDirectedTransferFunction:
+    configs:
+    - fmax: 0.25
+      fmin: 0
+      statistic: max
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

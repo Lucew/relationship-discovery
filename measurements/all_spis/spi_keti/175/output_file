@@ -1,0 +1,49 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/175/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.SpectralGrangerCausality(x,y,{'fmax': 0.5, 'fmin': 0.25, 'method': 'parametric', 'order': 1, 'statistic': 'mean'})
+Succesfully initialised SPI with identifier "sgc_parametric_mean_fs-1_fmin-0-25_fmax-0-5_order-1" and labels ['unsigned', 'embedding', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: sgc_parametric_mean_fs-1_fmin-0-25_fmax-0-5_order-1]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:423: RuntimeWarning: Mean of empty slice
+  result = self._statfn(cache[0, freq_id, :, :], axis=0)
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:430: UserWarning: Spectral GC: the following processes have >50.0% NaN values:
+[[ 53  18]
+ [ 53  34]
+ [ 53  90]
+ [ 53 100]
+ [ 53 125]
+ [ 53 131]
+ [ 53 241]
+ [ 93 129]]
+These indices will be set to NaN. Set ignore_nan to False or modify nan_threshold parameter if required.
+  warnings.warn(
+Processing [None: sgc_parametric_mean_fs-1_fmin-0-25_fmax-0-5_order-1]: 100%|██████████| 1/1 [00:43<00:00, 43.59s/it]Processing [None: sgc_parametric_mean_fs-1_fmin-0-25_fmax-0-5_order-1]: 100%|██████████| 1/1 [00:43<00:00, 43.59s/it]
+
+Calculation complete. Time taken: 43.5906s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     1 | 100.00%
+------------------------------------------------------------
+
+[1] SPIs which produced partial NaN outputs:
+------------------------------------------------------------
+1. sgc_parametric_mean_fs-1_fmin-0-25_fmax-0-5_order-1
+------------------------------------------------------------
+
+Computation took 54.630243092775345 Seconds

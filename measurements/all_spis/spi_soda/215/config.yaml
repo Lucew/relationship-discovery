@@ -1,0 +1,13 @@
+.statistics.misc:
+  PowerEnvelopeCorrelation:
+    configs:
+    - absolute: true
+      log: true
+      orth: true
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - time-dependent

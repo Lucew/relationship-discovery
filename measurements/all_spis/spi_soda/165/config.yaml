@@ -1,0 +1,14 @@
+.statistics.spectral:
+  SpectralGrangerCausality:
+    configs:
+    - fmax: 0.25
+      fmin: 0
+      method: nonparametric
+      statistic: mean
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

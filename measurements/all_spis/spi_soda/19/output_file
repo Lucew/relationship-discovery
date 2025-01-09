@@ -1,0 +1,30 @@
+Delete 0/194 rooms due to zero std.
+We have 388 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722586769/19/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.Precision(x,y,{'estimator': 'OAS', 'squared': True})
+Succesfully initialised SPI with identifier "prec-sq_OAS" and labels ['basic', 'unordered', 'linear', 'undirected', 'unsigned']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: prec-sq_OAS]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: prec-sq_OAS]: 100%|██████████| 1/1 [00:00<00:00,  3.70it/s]Processing [None: prec-sq_OAS]: 100%|██████████| 1/1 [00:00<00:00,  3.69it/s]
+
+Calculation complete. Time taken: 0.2708s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 11.437711767852306 Seconds

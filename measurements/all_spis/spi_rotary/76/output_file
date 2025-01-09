@@ -1,0 +1,32 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/76/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.CoherencePhase(x,y,{'fmax': 0.5, 'fmin': 0.25})
+Succesfully initialised SPI with identifier "phase_multitaper_mean_fs-1_fmin-0-25_fmax-0-5" and labels ['unsigned', 'spectral', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: phase_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:91: RuntimeWarning: Mean of empty slice
+  adj = self._statfn(adj_freq[0, freq_id, :, :], axis=0)
+Processing [None: phase_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:02<00:00,  2.74s/it]Processing [None: phase_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:02<00:00,  2.74s/it]
+
+Calculation complete. Time taken: 2.7394s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 13.39510452374816 Seconds

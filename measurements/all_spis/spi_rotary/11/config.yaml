@@ -1,0 +1,11 @@
+.statistics.basic:
+  Precision:
+    configs:
+    - estimator: EmpiricalCovariance
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - signed
+    - multivariate
+    - contemporaneous

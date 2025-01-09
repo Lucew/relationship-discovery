@@ -1,0 +1,30 @@
+Delete 0/194 rooms due to zero std.
+We have 388 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722586769/68/config.yaml
+*** Importing module .statistics.infotheory
+[0] Adding SPI .statistics.infotheory.TimeLaggedMutualInfo(x,y,{'estimator': 'gaussian'})
+Succesfully initialised SPI with identifier "tlmi_gaussian" and labels ['unsigned', 'infotheory', 'temporal', 'undirected', 'linear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: tlmi_gaussian]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: tlmi_gaussian]: 100%|██████████| 1/1 [05:58<00:00, 358.47s/it]Processing [None: tlmi_gaussian]: 100%|██████████| 1/1 [05:58<00:00, 358.47s/it]
+
+Calculation complete. Time taken: 358.4749s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 369.6162852011621 Seconds

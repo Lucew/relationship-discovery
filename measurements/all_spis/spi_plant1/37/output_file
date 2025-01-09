@@ -1,0 +1,18 @@
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722346212/37/config.yaml
+*** Importing module .statistics.distance
+[0] Adding SPI .statistics.distance.DistanceCorrelation(x,y,{'biased': False})
+Succesfully initialised SPI with identifier "dcorr" and labels ['unsigned', 'distance', 'unordered', 'nonlinear', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: dcorr]:   0%|          | 0/1 [00:00<?, ?it/s]
+
+
+Timeout for ['python', 'parallelSPIScript.py', '--parquet_path', 'spi_1722346212/plant_@1.parquet', '--save_path', 'spi_1722346212/37', '--subset', 'spi_1722346212/37/config.yaml'] (41412s) expired
+Terminating the whole process group...

@@ -1,0 +1,14 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/118/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.DebiasedSquaredPhaseLagIndex(x,y,{'fmax': 0.5, 'fmin': 0.25, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "dspli_multitaper_max_fs-1_fmin-0-25_fmax-0-5" and labels ['unsigned', 'spectral', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: dspli_multitaper_max_fs-1_fmin-0-25_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]

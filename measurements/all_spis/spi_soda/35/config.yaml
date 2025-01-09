@@ -1,0 +1,10 @@
+.statistics.distance:
+  PairwiseDistance:
+    configs:
+    - metric: canberra
+    dependencies:
+    labels:
+    - unsigned
+    - unordered
+    - nonlinear
+    - undirected

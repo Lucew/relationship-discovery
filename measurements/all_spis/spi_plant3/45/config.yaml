@@ -1,0 +1,10 @@
+.statistics.distance:
+  GromovWasserstainTau:
+    configs:
+    dependencies:
+    labels:
+    - unsigned
+    - distance
+    - unordered
+    - nonlinear
+    - undirected

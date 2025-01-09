@@ -1,0 +1,6 @@
+path: ./
+dataset_name: keti
+sampling_rate: 1min
+timeout_s: 15750
+workers: 62
+deselect rooms: False

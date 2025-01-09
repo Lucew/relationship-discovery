@@ -200,7 +200,6 @@ intermediate_results/
 *.tex
 
 # ignore the measurements
-measurements/
 Data/
 results2/
 stonks/

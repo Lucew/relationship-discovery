@@ -1,0 +1,30 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/54/config.yaml
+*** Importing module .statistics.infotheory
+[0] Adding SPI .statistics.infotheory.ConditionalEntropy(x,y,{'estimator': 'kernel'})
+Succesfully initialised SPI with identifier "ce_kernel_W-0.5" and labels ['unsigned', 'infotheory', 'unordered', 'directed', 'nonlinear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: ce_kernel_W-0.5]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: ce_kernel_W-0.5]: 100%|██████████| 1/1 [2:49:04<00:00, 10144.47s/it]Processing [None: ce_kernel_W-0.5]: 100%|██████████| 1/1 [2:49:04<00:00, 10144.47s/it]
+
+Calculation complete. Time taken: 10144.4723s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 10155.748819373548 Seconds

@@ -1,0 +1,12 @@
+.statistics.spectral:
+  PhaseSlopeIndex:
+    configs:
+    - fmax: 0.5
+      fmin: 0
+    dependencies:
+    labels:
+    - directed
+    - linear/nonlinear
+    - unsigned
+    - bivariate
+    - frequency-dependent

@@ -1,0 +1,13 @@
+.statistics.infotheory:
+  TimeLaggedMutualInfo:
+    configs:
+    - estimator: kraskov
+      prop_k: 4
+    dependencies:
+    - java
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - time-dependent

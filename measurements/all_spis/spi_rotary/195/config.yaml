@@ -1,0 +1,11 @@
+.statistics.misc:
+  LinearModel:
+    configs:
+    - model: Lasso
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - contemporaneous

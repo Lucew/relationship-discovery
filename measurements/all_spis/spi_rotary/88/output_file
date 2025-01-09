@@ -1,0 +1,30 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/88/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.ImaginaryCoherence(x,y,{'fmax': 0.5, 'fmin': 0.25})
+Succesfully initialised SPI with identifier "icoh_multitaper_mean_fs-1_fmin-0-25_fmax-0-5" and labels ['unsigned', 'spectral', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: icoh_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: icoh_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Processing [None: icoh_multitaper_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+
+Calculation complete. Time taken: 1.4333s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 12.03477330505848 Seconds

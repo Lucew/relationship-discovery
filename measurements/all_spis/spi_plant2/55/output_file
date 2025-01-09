@@ -1,0 +1,30 @@
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722417695/55/config.yaml
+*** Importing module .statistics.infotheory
+[0] Adding SPI .statistics.infotheory.CrossmapEntropy(x,y,{'estimator': 'gaussian', 'history_length': 1})
+Succesfully initialised SPI with identifier "xme_gaussian_k1" and labels ['unsigned', 'infotheory', 'temporal', 'directed', 'linear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: xme_gaussian_k1]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: xme_gaussian_k1]: 100%|██████████| 1/1 [1:25:19<00:00, 5119.96s/it]Processing [None: xme_gaussian_k1]: 100%|██████████| 1/1 [1:25:19<00:00, 5119.96s/it]
+
+Calculation complete. Time taken: 5119.9593s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 5131.384314253926 Seconds

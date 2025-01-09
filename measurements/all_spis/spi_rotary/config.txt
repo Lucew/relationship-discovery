@@ -1,0 +1,6 @@
+path: ./
+dataset_name: rotary
+sampling_rate: 5min
+timeout_s: 441
+workers: 62
+deselect rooms: False

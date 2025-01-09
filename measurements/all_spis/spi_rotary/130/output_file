@@ -1,0 +1,30 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/130/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.PairwisePhaseConsistency(x,y,{'fmax': 0.5, 'fmin': 0.25, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "ppc_multitaper_max_fs-1_fmin-0-25_fmax-0-5" and labels ['unsigned', 'spectral', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: ppc_multitaper_max_fs-1_fmin-0-25_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: ppc_multitaper_max_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]Processing [None: ppc_multitaper_max_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]
+
+Calculation complete. Time taken: 2.0860s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 12.705988954752684 Seconds

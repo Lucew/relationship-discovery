@@ -1,0 +1,6 @@
+path: ./
+dataset_name: soda
+sampling_rate: 1min
+timeout_s: 37636
+workers: 62
+deselect rooms: False

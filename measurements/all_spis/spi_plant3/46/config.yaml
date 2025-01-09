@@ -1,0 +1,10 @@
+.statistics.causal:
+  AdditiveNoiseModel:
+    configs:
+    dependencies:
+    labels:
+    - directed
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

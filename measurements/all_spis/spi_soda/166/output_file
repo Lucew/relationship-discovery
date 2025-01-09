@@ -1,0 +1,32 @@
+Delete 0/194 rooms due to zero std.
+We have 388 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722586769/166/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.SpectralGrangerCausality(x,y,{'fmax': 0.5, 'fmin': 0.25, 'method': 'nonparametric', 'statistic': 'mean'})
+Succesfully initialised SPI with identifier "sgc_nonparametric_mean_fs-1_fmin-0-25_fmax-0-5" and labels ['unsigned', 'embedding', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: sgc_nonparametric_mean_fs-1_fmin-0-25_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:423: RuntimeWarning: Mean of empty slice
+  result = self._statfn(cache[0, freq_id, :, :], axis=0)
+Processing [None: sgc_nonparametric_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [5:48:47<00:00, 20927.00s/it]Processing [None: sgc_nonparametric_mean_fs-1_fmin-0-25_fmax-0-5]: 100%|██████████| 1/1 [5:48:47<00:00, 20927.00s/it]
+
+Calculation complete. Time taken: 20927.0027s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 20937.957798823714 Seconds

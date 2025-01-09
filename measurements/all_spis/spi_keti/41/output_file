@@ -1,0 +1,30 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/41/config.yaml
+*** Importing module .statistics.distance
+[0] Adding SPI .statistics.distance.Barycenter(x,y,{'mode': 'euclidean', 'statistic': 'mean'})
+Succesfully initialised SPI with identifier "bary_euclidean_mean" and labels ['distance', 'signed', 'undirected', 'temporal', 'nonlinear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: bary_euclidean_mean]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: bary_euclidean_mean]: 100%|██████████| 1/1 [00:40<00:00, 40.20s/it]Processing [None: bary_euclidean_mean]: 100%|██████████| 1/1 [00:40<00:00, 40.20s/it]
+
+Calculation complete. Time taken: 40.2045s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 53.36140986159444 Seconds

@@ -1,0 +1,6 @@
+path: ./
+dataset_name: plant_@4
+sampling_rate: 10min
+timeout_s: 41412
+workers: 62
+deselect rooms: False

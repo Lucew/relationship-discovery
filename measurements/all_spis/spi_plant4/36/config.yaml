@@ -1,0 +1,10 @@
+.statistics.distance:
+  PairwiseDistance:
+    configs:
+    - metric: braycurtis
+    dependencies:
+    labels:
+    - unsigned
+    - unordered
+    - nonlinear
+    - undirected

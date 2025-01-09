@@ -1,0 +1,18 @@
+Delete 0/194 rooms due to zero std.
+We have 388 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722586769/158/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.DirectDirectedTransferFunction(x,y,{'fs': 1, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "ddtf_multitaper_max_fs-1_fmin-0_fmax-0-5" and labels ['unsigned', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: ddtf_multitaper_max_fs-1_fmin-0_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]
+
+
+Timeout for ['python', 'parallelSPIScript.py', '--parquet_path', 'spi_1722586769/soda.parquet', '--save_path', 'spi_1722586769/158', '--subset', 'spi_1722586769/158/config.yaml'] (37636s) expired
+Terminating the whole process group...

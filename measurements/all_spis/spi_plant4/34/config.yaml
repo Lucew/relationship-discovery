@@ -1,0 +1,10 @@
+.statistics.distance:
+  PairwiseDistance:
+    configs:
+    - metric: chebyshev
+    dependencies:
+    labels:
+    - unsigned
+    - unordered
+    - nonlinear
+    - undirected

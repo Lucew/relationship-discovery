@@ -1,0 +1,16 @@
+.statistics.infotheory:
+  TransferEntropy:
+    configs:
+    - dyn_corr_excl: AUTO
+      estimator: kraskov
+      k_history: 1
+      l_history: 1
+      prop_k: 4
+    dependencies:
+    - java
+    labels:
+    - directed
+    - nonlinear
+    - unsigned
+    - bivariate
+    - time-dependent

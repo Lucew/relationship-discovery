@@ -1,0 +1,186 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:344: UserWarning: Frequency minimum set to 0; overriding to 1e-5.
+  warnings.warn(f"Frequency minimum set to {self._fmin}; overriding to 1e-5.")
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722417695/186/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.SpectralGrangerCausality(x,y,{'fmax': 0.25, 'fmin': 0, 'method': 'parametric', 'order': 20, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "sgc_parametric_max_fs-1_fmin-0_fmax-0-25_order-20" and labels ['unsigned', 'embedding', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: sgc_parametric_max_fs-1_fmin-0_fmax-0-25_order-20]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:423: RuntimeWarning: All-NaN slice encountered
+  result = self._statfn(cache[0, freq_id, :, :], axis=0)
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:430: UserWarning: Spectral GC: the following processes have >50.0% NaN values:
+[[  6  41]
+ [  6 126]
+ [  6 135]
+ [  6 188]
+ [ 24 321]
+ [ 26 261]
+ [ 37 362]
+ [ 41 126]
+ [ 47 115]
+ [ 47 209]
+ [ 47 396]
+ [ 73  28]
+ [ 73  67]
+ [ 73 106]
+ [ 73 126]
+ [ 73 160]
+ [ 79 323]
+ [ 83 309]
+ [ 96 126]
+ [103 342]
+ [103 347]
+ [103 402]
+ [112 354]
+ [112 403]
+ [115  47]
+ [125  73]
+ [130 315]
+ [130 354]
+ [130 403]
+ [131 402]
+ [135 214]
+ [137 157]
+ [138 126]
+ [150  32]
+ [150 226]
+ [157 137]
+ [160  73]
+ [163 381]
+ [165 266]
+ [169  73]
+ [174  73]
+ [188   6]
+ [188  41]
+ [190 321]
+ [208 226]
+ [209  10]
+ [209  47]
+ [209 403]
+ [210 342]
+ [211 264]
+ [214 135]
+ [226  12]
+ [226  83]
+ [226 115]
+ [226 150]
+ [226 254]
+ [226 263]
+ [226 292]
+ [226 312]
+ [226 322]
+ [226 326]
+ [230 381]
+ [232 391]
+ [238 315]
+ [238 321]
+ [261  26]
+ [264 211]
+ [267   1]
+ [267  46]
+ [267  47]
+ [267  91]
+ [270  46]
+ [270  59]
+ [271   1]
+ [271  10]
+ [271  47]
+ [309  14]
+ [309  59]
+ [309  83]
+ [309  93]
+ [310  20]
+ [310 221]
+ [312 205]
+ [315 130]
+ [315 238]
+ [320 229]
+ [321   2]
+ [321  24]
+ [321 190]
+ [323  51]
+ [323  79]
+ [327 103]
+ [332  20]
+ [337 205]
+ [342 210]
+ [343  51]
+ [343  79]
+ [347 103]
+ [354 130]
+ [354 249]
+ [355   2]
+ [355  14]
+ [355  24]
+ [355  50]
+ [355  51]
+ [355  62]
+ [355  79]
+ [355 119]
+ [355 210]
+ [356  14]
+ [356  79]
+ [356 117]
+ [356 121]
+ [356 137]
+ [356 221]
+ [357  14]
+ [357  79]
+ [357 117]
+ [357 165]
+ [362  37]
+ [366  20]
+ [366 141]
+ [375 137]
+ [381  14]
+ [381  51]
+ [381  79]
+ [391   9]
+ [391  37]
+ [391  62]
+ [391  99]
+ [391 104]
+ [391 113]
+ [391 232]
+ [392   2]
+ [392  79]
+ [392 137]
+ [396   1]
+ [396  47]
+ [402 103]
+ [403 130]
+ [403 209]
+ [405 118]
+ [405 119]]
+These indices will be set to NaN. Set ignore_nan to False or modify nan_threshold parameter if required.
+  warnings.warn(
+Processing [None: sgc_parametric_max_fs-1_fmin-0_fmax-0-25_order-20]: 100%|██████████| 1/1 [08:19<00:00, 499.89s/it]Processing [None: sgc_parametric_max_fs-1_fmin-0_fmax-0-25_order-20]: 100%|██████████| 1/1 [08:19<00:00, 499.89s/it]
+
+Calculation complete. Time taken: 499.8860s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     1 | 100.00%
+------------------------------------------------------------
+
+[1] SPIs which produced partial NaN outputs:
+------------------------------------------------------------
+1. sgc_parametric_max_fs-1_fmin-0_fmax-0-25_order-20
+------------------------------------------------------------
+
+Computation took 511.29188934341073 Seconds

@@ -1,0 +1,12 @@
+.statistics.infotheory:
+  CrossmapEntropy:
+    configs:
+    - estimator: kozachenko
+      history_length: 10
+    dependencies:
+    - java
+    labels:
+    - unsigned
+    - directed
+    - time-dependent
+    - bivariate

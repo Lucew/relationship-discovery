@@ -1,0 +1,14 @@
+.statistics.spectral:
+  SpectralGrangerCausality:
+    configs:
+    - fs: 1
+      method: parametric
+      order: 20
+      statistic: mean
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

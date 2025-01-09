@@ -1,0 +1,10 @@
+.statistics.causal:
+  RegressionErrorCausalInference:
+    configs:
+    dependencies:
+    labels:
+    - directed
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

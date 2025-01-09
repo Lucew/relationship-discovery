@@ -1,0 +1,18 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/62/config.yaml
+*** Importing module .statistics.infotheory
+[0] Adding SPI .statistics.infotheory.StochasticInteraction(x,y,{'estimator': 'kozachenko'})
+Succesfully initialised SPI with identifier "si_kozachenko_k-1" and labels ['unsigned', 'infotheory', 'temporal', 'undirected', 'linear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: si_kozachenko_k-1]:   0%|          | 0/1 [00:00<?, ?it/s]
+
+
+Timeout for ['python', 'parallelSPIScript.py', '--parquet_path', 'spi_1722554735/keti.parquet', '--save_path', 'spi_1722554735/62', '--subset', 'spi_1722554735/62/config.yaml'] (15750s) expired
+Terminating the whole process group...

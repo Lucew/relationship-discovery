@@ -1,0 +1,12 @@
+.statistics.spectral:
+  DebiasedSquaredPhaseLagIndex:
+    configs:
+    - fmax: 0.25
+      fmin: 0
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

@@ -1,0 +1,82 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/mne/externals/tempita/__init__.py:35: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722502183/208/config.yaml
+*** Importing module .statistics.misc
+[0] Adding SPI .statistics.misc.Cointegration(x,y,{'autolag': 'aic', 'maxlag': 10, 'method': 'aeg', 'statistic': 'tstat', 'trend': 'ct'})
+Succesfully initialised SPI with identifier "coint_aeg_tstat_trend-ct_autolag-aic_maxlag-10" and labels ['misc', 'unsigned', 'temporal', 'undirected', 'nonlinear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: coint_aeg_tstat_trend-ct_autolag-aic_maxlag-10]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/misc.py:69: CollinearityWarning: y0 and y1 are (almost) perfectly colinear.Cointegration test is not reliable in this case.
+  stats = stattools.coint(
+Processing [None: coint_aeg_tstat_trend-ct_autolag-aic_maxlag-10]: 100%|██████████| 1/1 [54:06<00:00, 3246.10s/it]Processing [None: coint_aeg_tstat_trend-ct_autolag-aic_maxlag-10]: 100%|██████████| 1/1 [54:06<00:00, 3246.10s/it]
+
+Calculation complete. Time taken: 3246.1035s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 3258.114323012531 Seconds

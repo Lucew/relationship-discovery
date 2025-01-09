@@ -1,0 +1,10 @@
+.statistics.wavelet:
+  PhaseSlopeIndex:
+    configs:
+    - fs: 1
+    dependencies:
+    labels:
+    - undirected
+    - unsigned
+    - time/frequency dependent
+    - bivariate

@@ -1,0 +1,11 @@
+.statistics.basic:
+  SpearmanR:
+    configs:
+    - squared: false
+    dependencies:
+    labels:
+    - undirected
+    - nonlinear
+    - signed
+    - bivariate
+    - contemporaneous

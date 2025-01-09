@@ -1,0 +1,12 @@
+.statistics.infotheory:
+  ConditionalEntropy:
+    configs:
+    - estimator: kernel
+    dependencies:
+    - java
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

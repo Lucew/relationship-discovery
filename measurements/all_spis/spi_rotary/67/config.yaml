@@ -1,0 +1,13 @@
+.statistics.infotheory:
+  MutualInfo:
+    configs:
+    - estimator: kernel
+      kernel_width: 0.25
+    dependencies:
+    - java
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

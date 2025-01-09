@@ -1,0 +1,12 @@
+.statistics.distance:
+  Barycenter:
+    configs:
+    - mode: euclidean
+      statistic: mean
+    dependencies:
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - time-dependent

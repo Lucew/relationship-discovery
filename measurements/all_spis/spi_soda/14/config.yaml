@@ -1,0 +1,11 @@
+.statistics.basic:
+  Precision:
+    configs:
+    - estimator: OAS
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - signed
+    - multivariate
+    - contemporaneous

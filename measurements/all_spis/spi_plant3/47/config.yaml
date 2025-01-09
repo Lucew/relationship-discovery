@@ -1,0 +1,10 @@
+.statistics.causal:
+  ConditionalDistributionSimilarity:
+    configs:
+    dependencies:
+    labels:
+    - directed
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

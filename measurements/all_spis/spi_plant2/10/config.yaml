@@ -1,0 +1,12 @@
+.statistics.basic:
+  Covariance:
+    configs:
+    - estimator: ShrunkCovariance
+      squared: true
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - signed
+    - multivariate
+    - contemporaneous

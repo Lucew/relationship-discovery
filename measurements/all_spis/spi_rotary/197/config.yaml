@@ -1,0 +1,11 @@
+.statistics.misc:
+  LinearModel:
+    configs:
+    - model: ElasticNet
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - contemporaneous

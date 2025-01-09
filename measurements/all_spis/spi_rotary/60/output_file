@@ -1,0 +1,18 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/60/config.yaml
+*** Importing module .statistics.infotheory
+[0] Adding SPI .statistics.infotheory.CrossmapEntropy(x,y,{'estimator': 'kernel', 'history_length': 10})
+Succesfully initialised SPI with identifier "xme_kernel_W-0.5_k10" and labels ['unsigned', 'infotheory', 'temporal', 'directed', 'nonlinear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: xme_kernel_W-0.5_k10]:   0%|          | 0/1 [00:00<?, ?it/s]
+
+
+Timeout for ['python', 'parallelSPIScript.py', '--parquet_path', 'spi_1722570500/rotary.parquet', '--save_path', 'spi_1722570500/60', '--subset', 'spi_1722570500/60/config.yaml'] (441s) expired
+Terminating the whole process group...

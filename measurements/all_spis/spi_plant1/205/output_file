@@ -1,0 +1,32 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/mne/externals/tempita/__init__.py:35: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722346212/205/config.yaml
+*** Importing module .statistics.misc
+[0] Adding SPI .statistics.misc.Cointegration(x,y,{'det_order': 1, 'k_ar_diff': 1, 'method': 'johansen', 'statistic': 'max_eig_stat'})
+Succesfully initialised SPI with identifier "coint_johansen_max_eig_stat_order-1_ardiff-1" and labels ['misc', 'unsigned', 'temporal', 'undirected', 'nonlinear']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: coint_johansen_max_eig_stat_order-1_ardiff-1]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: coint_johansen_max_eig_stat_order-1_ardiff-1]: 100%|██████████| 1/1 [07:51<00:00, 471.32s/it]Processing [None: coint_johansen_max_eig_stat_order-1_ardiff-1]: 100%|██████████| 1/1 [07:51<00:00, 471.32s/it]
+
+Calculation complete. Time taken: 471.3161s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 484.05273539200425 Seconds

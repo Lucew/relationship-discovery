@@ -1,0 +1,14 @@
+.statistics.infotheory:
+  TransferEntropy:
+    configs:
+    - estimator: gaussian
+      k_history: 1
+      l_history: 1
+    dependencies:
+    - java
+    labels:
+    - directed
+    - nonlinear
+    - unsigned
+    - bivariate
+    - time-dependent

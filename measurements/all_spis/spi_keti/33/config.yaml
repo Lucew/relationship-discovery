@@ -1,0 +1,10 @@
+.statistics.distance:
+  PairwiseDistance:
+    configs:
+    - metric: cosine
+    dependencies:
+    labels:
+    - unsigned
+    - unordered
+    - nonlinear
+    - undirected

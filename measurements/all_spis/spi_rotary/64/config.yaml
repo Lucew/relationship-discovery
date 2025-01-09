@@ -1,0 +1,12 @@
+.statistics.infotheory:
+  MutualInfo:
+    configs:
+    - estimator: gaussian
+    dependencies:
+    - java
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

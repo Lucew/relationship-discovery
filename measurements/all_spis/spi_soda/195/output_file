@@ -1,0 +1,32 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/mne/externals/tempita/__init__.py:35: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi
+Delete 0/194 rooms due to zero std.
+We have 388 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722586769/195/config.yaml
+*** Importing module .statistics.misc
+[0] Adding SPI .statistics.misc.LinearModel(x,y,{'model': 'Lasso'})
+Succesfully initialised SPI with identifier "lmfit_Lasso" and labels ['misc', 'unsigned', 'unordered', 'normal', 'linear', 'directed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: lmfit_Lasso]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: lmfit_Lasso]: 100%|██████████| 1/1 [03:53<00:00, 233.09s/it]Processing [None: lmfit_Lasso]: 100%|██████████| 1/1 [03:53<00:00, 233.09s/it]
+
+Calculation complete. Time taken: 233.0870s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 245.77984353154898 Seconds

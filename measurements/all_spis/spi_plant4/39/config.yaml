@@ -1,0 +1,11 @@
+.statistics.distance:
+  HilbertSchmidtIndependenceCriterion:
+    configs:
+    - biased: false
+    dependencies:
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

@@ -1,0 +1,32 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/123/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.DebiasedSquaredWeightedPhaseLagIndex(x,y,{'fmax': 0.25, 'fmin': 0, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "dswpli_multitaper_max_fs-1_fmin-0_fmax-0-25" and labels ['unsigned', 'spectral', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: dswpli_multitaper_max_fs-1_fmin-0_fmax-0-25]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:91: RuntimeWarning: All-NaN slice encountered
+  adj = self._statfn(adj_freq[0, freq_id, :, :], axis=0)
+Processing [None: dswpli_multitaper_max_fs-1_fmin-0_fmax-0-25]: 100%|██████████| 1/1 [02:24<00:00, 144.47s/it]Processing [None: dswpli_multitaper_max_fs-1_fmin-0_fmax-0-25]: 100%|██████████| 1/1 [02:24<00:00, 144.47s/it]
+
+Calculation complete. Time taken: 144.4681s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 158.5252834893763 Seconds

@@ -1,0 +1,12 @@
+.statistics.spectral:
+  ImaginaryCoherence:
+    configs:
+    - fs: 1
+      statistic: max
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

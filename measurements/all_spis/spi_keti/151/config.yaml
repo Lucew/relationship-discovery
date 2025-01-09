@@ -1,0 +1,12 @@
+.statistics.spectral:
+  GeneralizedPartialDirectedCoherence:
+    configs:
+    - fmax: 0.5
+      fmin: 0.25
+    dependencies:
+    labels:
+    - unsigned
+    - directed
+    - linear
+    - bivariate
+    - frequency-dependent

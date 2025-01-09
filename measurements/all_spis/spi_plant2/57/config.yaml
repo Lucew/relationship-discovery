@@ -1,0 +1,12 @@
+.statistics.infotheory:
+  CrossmapEntropy:
+    configs:
+    - estimator: kernel
+      history_length: 1
+    dependencies:
+    - java
+    labels:
+    - unsigned
+    - directed
+    - time-dependent
+    - bivariate

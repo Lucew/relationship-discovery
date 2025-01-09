@@ -1,0 +1,30 @@
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/9/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.Covariance(x,y,{'estimator': 'OAS', 'squared': True})
+Succesfully initialised SPI with identifier "cov-sq_OAS" and labels ['basic', 'unordered', 'linear', 'undirected', 'unsigned']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cov-sq_OAS]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cov-sq_OAS]: 100%|██████████| 1/1 [00:00<00:00, 188.47it/s]
+
+Calculation complete. Time taken: 0.0054s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 10.939858745783567 Seconds

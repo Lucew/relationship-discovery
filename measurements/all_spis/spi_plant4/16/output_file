@@ -1,0 +1,30 @@
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722502183/16/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.Precision(x,y,{'estimator': 'EmpiricalCovariance', 'squared': True})
+Succesfully initialised SPI with identifier "prec-sq_EmpiricalCovariance" and labels ['basic', 'unordered', 'linear', 'undirected', 'unsigned']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: prec-sq_EmpiricalCovariance]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: prec-sq_EmpiricalCovariance]: 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]Processing [None: prec-sq_EmpiricalCovariance]: 100%|██████████| 1/1 [00:00<00:00,  3.79it/s]
+
+Calculation complete. Time taken: 0.2637s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 11.525788810104132 Seconds

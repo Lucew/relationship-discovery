@@ -1,0 +1,12 @@
+.statistics.spectral:
+  CoherenceMagnitude:
+    configs:
+    - fmax: 0.5
+      fmin: 0.25
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

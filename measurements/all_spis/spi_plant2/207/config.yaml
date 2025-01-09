@@ -1,0 +1,15 @@
+.statistics.misc:
+  Cointegration:
+    configs:
+    - autolag: aic
+      maxlag: 10
+      method: aeg
+      statistic: tstat
+      trend: c
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - time-dependent

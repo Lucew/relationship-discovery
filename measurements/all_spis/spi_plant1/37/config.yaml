@@ -1,0 +1,11 @@
+.statistics.distance:
+  DistanceCorrelation:
+    configs:
+    - biased: false
+    dependencies:
+    labels:
+    - undirected
+    - nonlinear
+    - unsigned
+    - bivariate
+    - contemporaneous

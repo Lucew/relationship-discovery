@@ -1,0 +1,13 @@
+.statistics.spectral:
+  PhaseLockingValue:
+    configs:
+    - fmax: 0.5
+      fmin: 0.25
+      statistic: max
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

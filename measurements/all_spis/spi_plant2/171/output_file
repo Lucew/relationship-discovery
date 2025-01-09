@@ -1,0 +1,40 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:344: UserWarning: Frequency minimum set to 0; overriding to 1e-5.
+  warnings.warn(f"Frequency minimum set to {self._fmin}; overriding to 1e-5.")
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722417695/171/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.SpectralGrangerCausality(x,y,{'fmax': 0.25, 'fmin': 0, 'method': 'parametric', 'statistic': 'mean'})
+Succesfully initialised SPI with identifier "sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None" and labels ['unsigned', 'embedding', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/calculator.py:297: UserWarning: Caught <class 'TypeError'> for SPI "sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None": expected string or bytes-like object, got 'ValueError'
+  warnings.warn(f'Caught {type(err)} for SPI "{spi}": {err}')
+Processing [None: sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None]: 100%|██████████| 1/1 [00:02<00:00,  2.99s/it]Processing [None: sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None]: 100%|██████████| 1/1 [00:02<00:00,  2.99s/it]
+
+Calculation complete. Time taken: 2.9948s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     1 | 100.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+
+[1] SPI(s) produced NaN outputs:
+------------------------------------------------------------
+1. sgc_parametric_mean_fs-1_fmin-0_fmax-0-25_order-None
+------------------------------------------------------------
+
+Computation took 14.366136845201254 Seconds

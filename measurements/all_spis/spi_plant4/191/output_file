@@ -1,0 +1,16 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/mne/externals/tempita/__init__.py:35: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722502183/191/config.yaml
+*** Importing module .statistics.wavelet
+[0] Adding SPI .statistics.wavelet.PhaseSlopeIndex(x,y,{'fmax': 0.5, 'fmin': 0, 'statistic': 'max'})
+Succesfully initialised SPI with identifier "psi_wavelet_max_fs-1_fmin-0_fmax-0-5_max" and labels ['unsigned', 'wavelet', 'undirected']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: psi_wavelet_max_fs-1_fmin-0_fmax-0-5_max]:   0%|          | 0/1 [00:00<?, ?it/s]

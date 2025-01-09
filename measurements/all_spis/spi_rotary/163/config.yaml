@@ -1,0 +1,13 @@
+.statistics.spectral:
+  GroupDelay:
+    configs:
+    - fmax: 0.5
+      fmin: 0.25
+      statistic: delay
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

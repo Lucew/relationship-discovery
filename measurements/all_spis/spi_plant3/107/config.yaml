@@ -1,0 +1,11 @@
+.statistics.spectral:
+  WeightedPhaseLagIndex:
+    configs:
+    - fs: 1
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

@@ -1,0 +1,31 @@
+No GPU automatically detected. Setting SETTINGS.GPU to 0, and SETTINGS.NJOBS to cpu_count.
+Delete 0/14 rooms due to zero std.
+We have 42 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722570500/47/config.yaml
+*** Importing module .statistics.causal
+[0] Adding SPI .statistics.causal.ConditionalDistributionSimilarity(x,y)...
+Succesfully initialised SPI with identifier "cds" and labels ['unsigned', 'causal', 'unordered', 'nonlinear', 'directed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cds]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cds]: 100%|██████████| 1/1 [01:50<00:00, 110.10s/it]Processing [None: cds]: 100%|██████████| 1/1 [01:50<00:00, 110.10s/it]
+
+Calculation complete. Time taken: 110.1026s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 123.32473561167717 Seconds

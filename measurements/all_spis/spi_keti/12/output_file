@@ -1,0 +1,38 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/12/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.Precision(x,y,{'estimator': 'GraphicalLasso'})
+Succesfully initialised SPI with identifier "prec_GraphicalLasso" and labels ['basic', 'unordered', 'linear', 'undirected', 'signed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: prec_GraphicalLasso]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/calculator.py:297: UserWarning: Caught <class 'FloatingPointError'> for SPI "prec_GraphicalLasso": Non SPD result: the system is too ill-conditioned for this solver. The system is too ill-conditioned for this solver
+  warnings.warn(f'Caught {type(err)} for SPI "{spi}": {err}')
+Processing [None: prec_GraphicalLasso]: 100%|██████████| 1/1 [00:00<00:00,  1.92it/s]Processing [None: prec_GraphicalLasso]: 100%|██████████| 1/1 [00:00<00:00,  1.92it/s]
+
+Calculation complete. Time taken: 0.5211s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     1 | 100.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+
+[1] SPI(s) produced NaN outputs:
+------------------------------------------------------------
+1. prec_GraphicalLasso
+------------------------------------------------------------
+
+Computation took 11.73367053642869 Seconds

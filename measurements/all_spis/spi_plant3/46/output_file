@@ -1,0 +1,19 @@
+No GPU automatically detected. Setting SETTINGS.GPU to 0, and SETTINGS.NJOBS to cpu_count.
+Delete 0/3 rooms due to zero std.
+We have 405 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722460429/46/config.yaml
+*** Importing module .statistics.causal
+[0] Adding SPI .statistics.causal.AdditiveNoiseModel(x,y)...
+Succesfully initialised SPI with identifier "anm" and labels ['unsigned', 'causal', 'unordered', 'linear', 'directed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: anm]:   0%|          | 0/1 [00:00<?, ?it/s]
+
+
+Timeout for ['python', 'parallelSPIScript.py', '--parquet_path', 'spi_1722460429/plant_@3.parquet', '--save_path', 'spi_1722460429/46', '--subset', 'spi_1722460429/46/config.yaml'] (41006s) expired
+Terminating the whole process group...

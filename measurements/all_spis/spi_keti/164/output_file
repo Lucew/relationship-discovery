@@ -1,0 +1,1294 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:344: UserWarning: Frequency minimum set to 0; overriding to 1e-5.
+  warnings.warn(f"Frequency minimum set to {self._fmin}; overriding to 1e-5.")
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/164/config.yaml
+*** Importing module .statistics.spectral
+[0] Adding SPI .statistics.spectral.SpectralGrangerCausality(x,y,{'fmax': 0.5, 'fmin': 0, 'method': 'nonparametric', 'statistic': 'mean'})
+Succesfully initialised SPI with identifier "sgc_nonparametric_mean_fs-1_fmin-0_fmax-0-5" and labels ['unsigned', 'embedding', 'spectral', 'directed', 'lagged']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: sgc_nonparametric_mean_fs-1_fmin-0_fmax-0-5]:   0%|          | 0/1 [00:00<?, ?it/s]Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+Maximum iterations reached. 0 of 1 converged
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:423: RuntimeWarning: Mean of empty slice
+  result = self._statfn(cache[0, freq_id, :, :], axis=0)
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/statistics/spectral.py:430: UserWarning: Spectral GC: the following processes have >50.0% NaN values:
+[[  0  24]
+ [  5  48]
+ [  5  71]
+ [  9  48]
+ [  9 117]
+ [  9 213]
+ [  9 248]
+ [ 11  89]
+ [ 11  99]
+ [ 11 104]
+ [ 11 119]
+ [ 11 167]
+ [ 11 202]
+ [ 13  17]
+ [ 13  36]
+ [ 13  46]
+ [ 13  47]
+ [ 13  48]
+ [ 13 117]
+ [ 13 178]
+ [ 13 186]
+ [ 13 188]
+ [ 13 213]
+ [ 13 233]
+ [ 13 248]
+ [ 14  17]
+ [ 14  24]
+ [ 14  46]
+ [ 14  48]
+ [ 14  73]
+ [ 14 113]
+ [ 14 138]
+ [ 14 196]
+ [ 14 231]
+ [ 18  48]
+ [ 18 117]
+ [ 19  24]
+ [ 19  32]
+ [ 19 113]
+ [ 19 138]
+ [ 19 231]
+ [ 22 116]
+ [ 23  32]
+ [ 23  46]
+ [ 23  48]
+ [ 23 117]
+ [ 23 248]
+ [ 27 116]
+ [ 28  48]
+ [ 28 117]
+ [ 29   1]
+ [ 29  17]
+ [ 29  24]
+ [ 29  46]
+ [ 29  48]
+ [ 29  73]
+ [ 29 113]
+ [ 29 116]
+ [ 29 120]
+ [ 29 231]
+ [ 30  45]
+ [ 30  89]
+ [ 30 119]
+ [ 30 167]
+ [ 30 217]
+ [ 33  17]
+ [ 33  36]
+ [ 33  48]
+ [ 33 116]
+ [ 33 117]
+ [ 33 120]
+ [ 33 178]
+ [ 33 213]
+ [ 33 248]
+ [ 34   1]
+ [ 34  71]
+ [ 34 113]
+ [ 34 138]
+ [ 34 231]
+ [ 38  48]
+ [ 38 117]
+ [ 39  16]
+ [ 39  17]
+ [ 39  24]
+ [ 39  26]
+ [ 39  48]
+ [ 39  70]
+ [ 39  71]
+ [ 39  80]
+ [ 39 113]
+ [ 39 120]
+ [ 39 138]
+ [ 39 186]
+ [ 39 231]
+ [ 39 233]
+ [ 39 243]
+ [ 43  16]
+ [ 43  26]
+ [ 43  46]
+ [ 43  48]
+ [ 43  55]
+ [ 43  80]
+ [ 43 113]
+ [ 43 117]
+ [ 43 120]
+ [ 43 178]
+ [ 43 213]
+ [ 43 243]
+ [ 43 248]
+ [ 44  17]
+ [ 44  46]
+ [ 44  71]
+ [ 44 117]
+ [ 45  89]
+ [ 45 104]
+ [ 45 119]
+ [ 45 167]
+ [ 45 197]
+ [ 45 217]
+ [ 47  17]
+ [ 47  48]
+ [ 47 117]
+ [ 47 213]
+ [ 47 248]
+ [ 52 117]
+ [ 53  71]
+ [ 53 113]
+ [ 53 138]
+ [ 53 196]
+ [ 53 231]
+ [ 57  24]
+ [ 57  48]
+ [ 57  73]
+ [ 57 113]
+ [ 57 117]
+ [ 57 213]
+ [ 57 231]
+ [ 57 248]
+ [ 58  46]
+ [ 58  71]
+ [ 58  73]
+ [ 58 116]
+ [ 58 138]
+ [ 58 231]
+ [ 62   1]
+ [ 62  46]
+ [ 62  48]
+ [ 62  77]
+ [ 62 113]
+ [ 67  17]
+ [ 67  36]
+ [ 67  46]
+ [ 67  48]
+ [ 67 117]
+ [ 67 213]
+ [ 67 248]
+ [ 68   1]
+ [ 68  46]
+ [ 68 113]
+ [ 68 231]
+ [ 72  48]
+ [ 72 117]
+ [ 78  17]
+ [ 78  46]
+ [ 78  71]
+ [ 78 117]
+ [ 78 120]
+ [ 78 231]
+ [ 82  17]
+ [ 82  48]
+ [ 82 248]
+ [ 83  71]
+ [ 87  48]
+ [ 87 117]
+ [ 87 213]
+ [ 87 248]
+ [ 88   1]
+ [ 88   7]
+ [ 88  24]
+ [ 88  46]
+ [ 88 113]
+ [ 88 138]
+ [ 88 231]
+ [ 89 167]
+ [ 92   1]
+ [ 92  24]
+ [ 92  46]
+ [ 92  48]
+ [ 93   1]
+ [ 93  32]
+ [ 93  71]
+ [ 93  73]
+ [ 93 113]
+ [ 93 138]
+ [ 93 231]
+ [ 97  48]
+ [ 97 113]
+ [ 97 117]
+ [ 99 119]
+ [ 99 152]
+ [ 99 167]
+ [102  36]
+ [102  46]
+ [102  48]
+ [102 117]
+ [102 178]
+ [102 213]
+ [102 233]
+ [102 248]
+ [103  24]
+ [103  48]
+ [104  11]
+ [104 119]
+ [104 167]
+ [107  36]
+ [107  46]
+ [107  48]
+ [107 178]
+ [107 183]
+ [107 188]
+ [107 213]
+ [107 233]
+ [107 248]
+ [108 113]
+ [108 231]
+ [112  36]
+ [112  46]
+ [112  48]
+ [112 117]
+ [112 178]
+ [112 188]
+ [112 213]
+ [112 233]
+ [112 248]
+ [114 167]
+ [117 121]
+ [118   1]
+ [118 138]
+ [118 231]
+ [119  11]
+ [119  45]
+ [119 167]
+ [119 202]
+ [120 169]
+ [121  46]
+ [121  48]
+ [121 117]
+ [122  17]
+ [122 138]
+ [124 120]
+ [125  48]
+ [125 113]
+ [126  24]
+ [126 231]
+ [130  48]
+ [130 213]
+ [130 248]
+ [135  48]
+ [135 213]
+ [135 248]
+ [136  26]
+ [136  50]
+ [136  71]
+ [136 138]
+ [136 186]
+ [136 231]
+ [136 233]
+ [137 167]
+ [140  48]
+ [140 113]
+ [140 231]
+ [141  24]
+ [141  46]
+ [141  71]
+ [141 117]
+ [141 183]
+ [141 186]
+ [141 196]
+ [145  24]
+ [145  46]
+ [146  17]
+ [146  71]
+ [146 116]
+ [150  48]
+ [150  71]
+ [150 113]
+ [152 167]
+ [152 197]
+ [155  17]
+ [155  36]
+ [155  46]
+ [155  48]
+ [155 178]
+ [155 188]
+ [155 213]
+ [155 233]
+ [155 248]
+ [156  17]
+ [156  73]
+ [156 120]
+ [156 231]
+ [160  24]
+ [160  32]
+ [160  46]
+ [160  48]
+ [160 186]
+ [160 213]
+ [160 248]
+ [161  17]
+ [161  24]
+ [161  73]
+ [161 113]
+ [161 120]
+ [161 231]
+ [165  32]
+ [165  36]
+ [165  46]
+ [165  48]
+ [165  50]
+ [165  73]
+ [165 178]
+ [165 186]
+ [165 188]
+ [165 213]
+ [165 233]
+ [165 248]
+ [166 117]
+ [166 138]
+ [166 231]
+ [167 104]
+ [167 137]
+ [167 197]
+ [167 202]
+ [169 120]
+ [170  46]
+ [170  48]
+ [170 117]
+ [170 213]
+ [170 248]
+ [171   1]
+ [171  24]
+ [171  46]
+ [171  48]
+ [171  71]
+ [171 113]
+ [171 173]
+ [171 186]
+ [171 231]
+ [175  17]
+ [175  26]
+ [175  36]
+ [175  46]
+ [175  48]
+ [175 178]
+ [175 213]
+ [175 248]
+ [176   1]
+ [176  16]
+ [176  24]
+ [176  71]
+ [176 113]
+ [176 138]
+ [176 186]
+ [176 196]
+ [176 213]
+ [176 231]
+ [176 233]
+ [179 120]
+ [179 189]
+ [180  16]
+ [180  24]
+ [180  48]
+ [180 113]
+ [180 248]
+ [185 113]
+ [190  48]
+ [190 117]
+ [190 213]
+ [190 248]
+ [191   1]
+ [191  17]
+ [191  24]
+ [191  46]
+ [191  48]
+ [191  73]
+ [191 116]
+ [191 120]
+ [191 231]
+ [195  17]
+ [195  36]
+ [195  48]
+ [195 116]
+ [195 120]
+ [195 178]
+ [195 183]
+ [195 213]
+ [195 248]
+ [197 202]
+ [197 217]
+ [200  36]
+ [200  46]
+ [200  48]
+ [200 213]
+ [200 248]
+ [201  16]
+ [201  24]
+ [201  46]
+ [201  48]
+ [201  71]
+ [201 138]
+ [201 186]
+ [201 231]
+ [201 233]
+ [205  24]
+ [205  48]
+ [205 113]
+ [205 231]
+ [206  16]
+ [210  36]
+ [210  46]
+ [210  48]
+ [210 213]
+ [210 248]
+ [211  17]
+ [211  48]
+ [215  24]
+ [215  46]
+ [215  48]
+ [215 213]
+ [215 231]
+ [215 248]
+ [220  17]
+ [220  36]
+ [220  46]
+ [220  48]
+ [220 188]
+ [220 213]
+ [220 248]
+ [221 231]
+ [225  48]
+ [225 113]
+ [225 117]
+ [225 213]
+ [225 248]
+ [226   1]
+ [226  46]
+ [226  48]
+ [230   1]
+ [230  77]
+ [230 113]
+ [230 213]
+ [235  48]
+ [235 113]
+ [236  17]
+ [236 113]
+ [236 138]
+ [236 231]
+ [240  46]
+ [240  48]
+ [240 213]
+ [240 248]
+ [241  71]
+ [241 138]
+ [244 120]
+ [245  48]
+ [246  46]
+ [246  71]
+ [246 113]
+ [246 117]
+ [246 196]
+ [250   1]
+ [250  17]
+ [250 116]
+ [250 117]
+ [250 120]
+ [250 183]
+ [250 248]]
+These indices will be set to NaN. Set ignore_nan to False or modify nan_threshold parameter if required.
+  warnings.warn(
+Processing [None: sgc_nonparametric_mean_fs-1_fmin-0_fmax-0-5]: 100%|██████████| 1/1 [2:08:42<00:00, 7722.18s/it]Processing [None: sgc_nonparametric_mean_fs-1_fmin-0_fmax-0-5]: 100%|██████████| 1/1 [2:08:42<00:00, 7722.18s/it]
+
+Calculation complete. Time taken: 7722.1834s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     1 | 100.00%
+------------------------------------------------------------
+
+[1] SPIs which produced partial NaN outputs:
+------------------------------------------------------------
+1. sgc_nonparametric_mean_fs-1_fmin-0_fmax-0-5
+------------------------------------------------------------
+
+Computation took 7733.120582763106 Seconds

@@ -1,0 +1,32 @@
+/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/mne/externals/tempita/__init__.py:35: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi
+Delete 0/3 rooms due to zero std.
+We have 405 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722460429/197/config.yaml
+*** Importing module .statistics.misc
+[0] Adding SPI .statistics.misc.LinearModel(x,y,{'model': 'ElasticNet'})
+Succesfully initialised SPI with identifier "lmfit_ElasticNet" and labels ['misc', 'unsigned', 'unordered', 'normal', 'linear', 'directed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: lmfit_ElasticNet]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: lmfit_ElasticNet]: 100%|██████████| 1/1 [05:19<00:00, 319.94s/it]Processing [None: lmfit_ElasticNet]: 100%|██████████| 1/1 [05:19<00:00, 319.94s/it]
+
+Calculation complete. Time taken: 319.9399s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 332.37159560620785 Seconds

@@ -1,0 +1,14 @@
+.statistics.misc:
+  Cointegration:
+    configs:
+    - det_order: 0
+      k_ar_diff: 10
+      method: johansen
+      statistic: max_eig_stat
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - unsigned
+    - bivariate
+    - time-dependent

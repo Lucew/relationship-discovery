@@ -1,0 +1,13 @@
+.statistics.basic:
+  CrossCorrelation:
+    configs:
+    - sigonly: false
+      squared: true
+      statistic: mean
+    dependencies:
+    labels:
+    - undirected
+    - linear
+    - signed/unsigned
+    - bivariate
+    - time-dependent

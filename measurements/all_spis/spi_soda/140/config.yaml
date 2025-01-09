@@ -1,0 +1,12 @@
+.statistics.spectral:
+  DirectedCoherence:
+    configs:
+    - fs: 1
+      statistic: max
+    dependencies:
+    labels:
+    - directed
+    - linear
+    - unsigned
+    - bivariate
+    - frequency-dependent

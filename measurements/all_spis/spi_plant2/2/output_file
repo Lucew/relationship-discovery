@@ -1,0 +1,30 @@
+Delete 0/3 rooms due to zero std.
+We have 407 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722417695/2/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.Covariance(x,y,{'estimator': 'GraphicalLassoCV'})
+Succesfully initialised SPI with identifier "cov_GraphicalLassoCV" and labels ['basic', 'unordered', 'linear', 'undirected', 'signed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cov_GraphicalLassoCV]:   0%|          | 0/1 [00:00<?, ?it/s]Processing [None: cov_GraphicalLassoCV]: 100%|██████████| 1/1 [00:39<00:00, 39.80s/it]Processing [None: cov_GraphicalLassoCV]: 100%|██████████| 1/1 [00:39<00:00, 39.80s/it]
+
+Calculation complete. Time taken: 39.8029s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 1 (100.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     1 | 100.00%
+NaNs           |     0 |   0.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+Computation took 51.04799346998334 Seconds

@@ -1,0 +1,38 @@
+Delete 0/51 rooms due to zero std.
+We have 251 signals after deletion.
+Checking if optional dependencies exist...
+Starting JVM with java class /home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/lib/jidt/infodynamics.jar.
+Loading configuration file: spi_1722554735/25/config.yaml
+*** Importing module .statistics.basic
+[0] Adding SPI .statistics.basic.CrossCorrelation(x,y,{'statistic': 'max'})
+Succesfully initialised SPI with identifier "xcorr_max_sig-True" and labels ['basic', 'linear', 'undirected', 'temporal', 'signed']
+====================================================================================================
+Number of SPIs: 1
+
+Normalising the dataset...
+
+  0%|          | 0/1 [00:00<?, ?it/s]Processing [None: xcorr_max_sig-True]:   0%|          | 0/1 [00:00<?, ?it/s]/home/weber/miniconda3/envs/network-inference/lib/python3.11/site-packages/pyspi/calculator.py:297: UserWarning: Caught <class 'IndexError'> for SPI "xcorr_max_sig-True": index -1 is out of bounds for axis 0 with size 0
+  warnings.warn(f'Caught {type(err)} for SPI "{spi}": {err}')
+Processing [None: xcorr_max_sig-True]: 100%|██████████| 1/1 [00:00<00:00,  1.69it/s]Processing [None: xcorr_max_sig-True]: 100%|██████████| 1/1 [00:00<00:00,  1.69it/s]
+
+Calculation complete. Time taken: 0.5934s
+
+SPI Computation Results Summary
+============================================================
+
+Total number of SPIs attempted: 1
+Number of SPIs successfully computed: 0 (0.00%)
+------------------------------------------------------------
+Category       | Count | Percentage
+------------------------------------------------------------
+Successful     |     0 |   0.00%
+NaNs           |     1 | 100.00%
+Partial NaNs   |     0 |   0.00%
+------------------------------------------------------------
+
+[1] SPI(s) produced NaN outputs:
+------------------------------------------------------------
+1. xcorr_max_sig-True
+------------------------------------------------------------
+
+Computation took 11.714889250695705 Seconds
