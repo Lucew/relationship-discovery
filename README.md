@@ -1,4 +1,4 @@
-![Concept](plots/concept.svg)
+![Concept](./plots/concept.svg)
 # Overview
 This repository contains the code to reproduce the experiments from the paper
 "Relationship Discovery for Heterogeneous Time Series Integration: A Comparative Analysis for Industrial and 
