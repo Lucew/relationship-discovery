@@ -3,9 +3,9 @@ import pandas as pd
 from glob import glob
 import os
 import matplotlib.pyplot as plt
-import makeCDID as mkd
+import visualization.makeCDID as mkd
 import seaborn as sns
-import rankingPlots as rpl
+import visualization.rankingPlots as rpl
 
 
 def load_results(path: str, use_fused: bool = False):
@@ -18,7 +18,7 @@ def load_results(path: str, use_fused: bool = False):
 
     # get all the results into memory
     results = {os.path.split(cp)[-1].split('_')[-1].split('.')[0]: (pd.read_parquet(cp))
-               for cp in glob(os.path.join(path, '..', 'results', f'result{typed}_spi*.parquet'))}
+               for cp in glob(os.path.join(path, 'results', f'result{typed}_spi*.parquet'))}
 
     # results.update({f'{name}_2': data for name, data in results.items()})
     return results
@@ -236,9 +236,8 @@ def make_vertical_group_plot(overall_rank: pd.DataFrame):
 def make_parallel_group_plot(ranks: pd.DataFrame, overall_rank: pd.DataFrame):
     overall_rank['group'] = [ele.replace('_', '-') if ele.startswith('fused') else ele.split('_', 1)[0] for ele in overall_rank.index]
     overall_rank = overall_rank.groupby('group').min()
-    ranks['group'] = [ele.replace('_', '-') if ele.startswith('fused') else ele.split('_', 1)[0] for ele in ranks.index]
-    ranks = ranks.sort_index(axis=1)
-    ranks = ranks.groupby('group').min()
+    ranks[('x', 'group')] = [ele.replace('_', '-') if ele.startswith('fused') else ele.split('_', 1)[0] for ele in ranks.index]
+    ranks = ranks.groupby(('x', 'group')).min()
     ranks.index.name = 'index'
     return make_parallel_vertical_coordinates(ranks, overall_rank)
 
@@ -390,8 +389,8 @@ def make_results_table(overall_rank: pd.DataFrame):
 def main():
     metrics = ['all', 'ir', 'cluster']
     datasets = ['all', 'building', 'plant']
-    save_fig = False
-    use_fused = False
+    save_fig = True
+    use_fused = True
 
     # create the string which measurements we use
     if use_fused:
@@ -413,8 +412,8 @@ def main():
             fig1 = make_parallel_group_plot(complete_ranks, overall_rank)
             fig2 = make_vertical_group_plot(overall_rank)
             if save_fig:
-                fig1.savefig(f'Parallel_Ranks_Metrics-{metric}_Data-{dataset}{measure_string}.pgf', backend='pgf')
-                fig2.savefig(f'Average_Ranks_Metrics-{metric}_Data-{dataset}{measure_string}.pgf', backend='pgf')
+                fig1.savefig(rf'plots\Parallel_Ranks_Metrics-{metric}_Data-{dataset}{measure_string}.pgf', backend='pgf')
+                fig2.savefig(rf'plots\Average_Ranks_Metrics-{metric}_Data-{dataset}{measure_string}.pgf', backend='pgf')
     plt.show()
 
 

@@ -438,7 +438,7 @@ def print_results(results: pd.DataFrame):
         print('\n\n')
 
 
-def evaluate_spi(result_path: str, spi_result_path: str = None):
+def evaluate_spi(result_path: str, spi_result_path: str = None, target_folder: str = "results"):
 
     if spi_result_path is not None:
         results = pd.read_parquet(spi_result_path)
@@ -471,6 +471,10 @@ def evaluate_spi(result_path: str, spi_result_path: str = None):
     # print('Specifiers for the undefined SPIs:')
     # print(collections.Counter(ele[0].split('_', 1)[0].split('-', 1)[0] for ele in undefined))
 
+    # save the timing as a dataframe
+    timings = pd.DataFrame.from_dict({key: [val] for key, val in timing_dict.items()})
+    timings.to_parquet(os.path.join(target_folder, f'timings_{os.path.split(result_path)[-1]}.parquet'))
+
     # drop the sensors that have no neighbors
     print(f'Dropping {len(dropped_sensors)} sensors as they have no partner.')
     result_df = result_df.drop(index=dropped_sensors)
@@ -495,7 +499,7 @@ def evaluate_spi(result_path: str, spi_result_path: str = None):
 
     # save the results for quick loading
     # print_results(results)
-    results.to_parquet(os.path.join('results', f'result_{os.path.split(result_path)[-1]}.parquet'))
+    results.to_parquet(os.path.join(target_folder, f'result_{os.path.split(result_path)[-1]}.parquet'))
     print('---------------------------------------------------------------------------------------')
     return results
 
