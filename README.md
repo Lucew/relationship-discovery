@@ -23,7 +23,7 @@ the publicly available datasets, one can run `parallelSPI.py` as described above
 In order to reproduce the results of our paper starting from the precomputed similarity/distance matrices take the 
 following steps:
 1. Install the necessary requirements using the `requirements.txt`
-2. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (section 3.3) and produce the ranking of the relationship measures (section 3.4)
+2. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (paper: section 3.3) and produce the ranking of the relationship measures (paper: section 3.4)
 3. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
 4. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
 
