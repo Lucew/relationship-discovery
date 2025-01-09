@@ -14,8 +14,10 @@ parameters in a shell.
 
 # Reproducibility
 
-Computing over 200 relationship measures for every of the seven datasets is the main computational bottleneck.
-Therefore, we provide the precalculated similarity/distance matrices within this repository. Computing the relationship
+Computing over 200 relationship measures for every of the seven datasets is the main computational bottleneck. Even when
+distributing the computations on a capable compute server, the results take days to complete.
+
+Therefore, we provide the [precalculated similarity/distance matrices](./measurements) within this repository. Computing the relationship
 measures uses [available](https://github.com/DynamicsAndNeuralSystems/pyspi) and
 [published](https://arxiv.org/abs/2201.11941) Code, therefore, this step is not part of the reproducibility guide. For
 the publicly available datasets, one can run `parallelSPI.py` as described above.
