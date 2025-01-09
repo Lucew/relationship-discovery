@@ -1,0 +1,72 @@
+# Basic Statistics
+cov: similarity # squaring might be necessary
+xcorr: similarity # squaring might be necessary
+kendalltau: similarity # squaring might be necessary
+prec: similarity # squaring might be necessary
+spearmanr: similarity # squaring might be necessary
+
+# Distance Measures
+bary: similarity # barycenter could just be not feasible as similarity/distance
+dcorrx: similarity # 0 is unrelated, 1 is related
+dcorr: similarity # see dcorrx
+mgcx: similarity # similar to dcorrx
+dtw: distance
+gwtau: distance # https://link.springer.com/article/10.1007/s11538-023-01175-y
+hhg: similarity # https://hyppo.neurodata.io/api/generated/hyppo.independence.hhg#hyppo.independence.HHG
+hsic: similarity
+lcss: similarity # the longer the common subsequence the better
+mgc: similarity # https://mgc.neurodata.io/api/generated/hyppo.independence.mgc
+softdtw: distance
+pdist: distance
+
+# Causal Inference
+# https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/causality.html
+anm: similarity # squaring might be necessary
+cds: similarity # squaring might be ne cessary
+ccm: similarity
+igci: similarity
+reci: distance
+
+# Information theory
+cce: distance
+ce: distance
+di: similarity
+gc: similarity
+phi: similarity
+je: distance
+mi: similarity
+si: similarity
+te: similarity
+tlmi: similarity
+xme: similarity
+
+# Spectral
+cohmag: similarity
+phase: similarity
+dcoh: similarity
+dtf: similarity
+ddtf: similarity
+gd: similarity # might not be useful
+icoh: similarity
+ppc: similarity
+pdcoh: similarity
+gpdcoh: similarity
+pli: similarity
+wpli: similarity
+dspli: similarity
+dswpli: similarity
+plv: similarity
+psi: similarity
+sgc: similarity
+
+# Misc.
+coint: similarity
+gpfit: distance
+lmfit: distance
+pec: similarity
+
+# user defined
+gist: similarity
+esst: similarity
+sst: similarity
+

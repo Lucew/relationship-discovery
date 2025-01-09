@@ -1,0 +1,23 @@
+# computation libraries
+numpy
+pyarrow
+pandas
+scikit-learn
+pyspi==1.1.0
+scipy
+networkx
+
+# administrative libraries
+dill
+pyyaml
+psutil
+tqdm
+
+# plotting libraries
+matplotlib
+seaborn
+graphviz
+dot2tex
+
+# when you want to use the reproducibility
+notebook
