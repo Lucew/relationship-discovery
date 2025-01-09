@@ -1,20 +1,21 @@
 import collections
 import os
 import sys
-import pandas as pd
 from glob import glob
-import pyspi
-from pyspi.calculator import Calculator
-import dill
-from tqdm import tqdm
-import numpy as np
-import functools
 import typing
 import multiprocessing as mp
 
 from sklearn.metrics import roc_auc_score
 from sklearn.cluster import SpectralClustering
 from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score, adjusted_mutual_info_score, homogeneity_score, completeness_score, v_measure_score
+
+import pyspi
+from pyspi.calculator import Calculator
+
+import dill
+from tqdm import tqdm
+import numpy as np
+import pandas as pd
 
 
 # https://stackoverflow.com/a/45669280
@@ -131,10 +132,6 @@ def find_and_load_results(result_path: str, original_dataset: pd.DataFrame):
     first_table = list(result_df.columns.get_level_values(0))[0]
     result_df.rename(columns={level_two: col for (level_two, col) in zip(result_df[first_table].columns, original_dataset.columns)}, inplace=True)
 
-    # get the functional subsystems (rooms, machines, blocks, etc.)
-    rooms = {col.split('_')[0] for col in original_dataset.columns}
-    sensors = {col.split('_', 1)[1] for col in original_dataset.columns}
-
     # get all the measures we want and that have only main diagonal NaN
     measures = set(result_df.columns.get_level_values(0))
     original_amount = len(measures)
@@ -143,11 +140,6 @@ def find_and_load_results(result_path: str, original_dataset: pd.DataFrame):
                 and not np.isinf(result_df[table].to_numpy()).any()]
     result_df = result_df[measures]
     print(f'We retained {len(measures)}/{original_amount} similarity measures (others were NaN or Inf).')
-    # print('Specifiers for the NaN SPIs:')
-    # print(collections.Counter(ele.split('_', 1)[0].split('-', 1)[0] for ele in measures))
-    for ele, val in sorted(spi_groups.items()):
-        print(f'{ele}: {val}')
-    print(sum(spi_groups.values()))
     return result_df, measures, timing_dict, defined, terminated, undefined
 
 
@@ -175,7 +167,6 @@ def compute_gross_accuracy(spi_df: pd.DataFrame, measures: list[str], results: p
             continue
 
         # go through the sensor and check the k closest
-        correct = 0
         for element in currtab.columns:
 
             # drop the own element
@@ -503,19 +494,17 @@ def evaluate_spi(result_path: str, spi_result_path: str = None):
     compute_normalized_discounted_gain(result_df, measures, results)
 
     # save the results for quick loading
-    print(result_path)
-    print_results(results)
-    print(results.loc[results.index.str.startswith('gist')][['Triplet Accuracy', 'Mean Reciprocal Rank', "Normalized Mutual Information"]])
-    results.to_parquet(os.path.join('results2', f'result_{os.path.split(result_path)[-1]}.parquet'))
+    # print_results(results)
+    results.to_parquet(os.path.join('results', f'result_{os.path.split(result_path)[-1]}.parquet'))
     print('---------------------------------------------------------------------------------------')
     return results
 
 
 if __name__ == '__main__':
     __root_path = r"measurements\all_spis"
-    paths = ['spi_keti', 'spi_plant1', 'spi_plant2', 'spi_plant3', 'spi_plant4', 'spi_rotary', 'spi_soda', 'spi_stonks']
+    paths = ['spi_keti', 'spi_plant1', 'spi_plant2', 'spi_plant3', 'spi_plant4', 'spi_rotary', 'spi_soda']
     __path_gen = (os.path.join(__root_path, __p) for __p in paths)
-    with mp.Pool(1) as pool:
+    with mp.Pool(6) as pool:
         for _ in pool.imap_unordered(evaluate_spi, __path_gen):
             pass
 
