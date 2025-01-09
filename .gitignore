@@ -196,7 +196,6 @@ intermediate_results/
 
 # ignore plots
 *.pgf
-*.svg
 *.tex
 
 # ignore the measurements
