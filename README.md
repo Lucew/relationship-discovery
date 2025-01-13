@@ -24,12 +24,18 @@ the publicly available datasets, one can run `parallelSPI.py` as described above
 
 In order to reproduce the results of our paper starting from the precomputed similarity/distance matrices take the 
 following steps:
-1. Install the necessary requirements using the `requirements.txt`
-2. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (paper: section 3.3) and produce the ranking of the relationship measures (paper: section 3.4)
-3. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
-4. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
+1. Clone this repository.
+2. Install the necessary requirements using the `requirements.txt`
+3. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (paper: section 3.3) and produce the ranking of the relationship measures (paper: section 3.4)
+4. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
+5. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
 
-This repository also already contains the intermediate results from step 2. Therefore, you could start at step three right away.
+We also provide a [dockerfile](./Dockerfile) an accompanying [docker compose file](./compose.yaml). You can start the
+container by installing [docker](https://docs.docker.com/get-started/get-docker/) and then navigating to
+[http://127.0.0.1:8081/notebooks/plots_results_paper.ipynb](http://127.0.0.1:8081/notebooks/plots_results_paper.ipynb)
+after the build and start up is finished.
+
+This repository also already contains the intermediate results from step 2. Therefore, you could start at step three right away after cloning the repository.
 
 # Contact
 Find our contact information [here](https://www.cs6.tf.fau.eu/person/lucas-weber/).
