@@ -446,7 +446,9 @@ def evaluate_spi(result_path: str, spi_result_path: str = None, target_folder: s
         return results
 
     # get the dataset from the result folder and make sure there is only one
+    print(os.path.join(result_path, '*.parquet'))
     dataset_path = glob(os.path.join(result_path, '*.parquet'))
+    print(dataset_path)
     assert len(dataset_path) == 1, f'There is more than one dataset in the result path: {dataset_path}.'
     dataset_path = dataset_path.pop()
     dataset = pd.read_parquet(dataset_path)
@@ -505,7 +507,7 @@ def evaluate_spi(result_path: str, spi_result_path: str = None, target_folder: s
 
 
 if __name__ == '__main__':
-    __root_path = r"measurements\all_spis"
+    __root_path = os.path.join("measurements", "all_spis")
     paths = ['spi_keti', 'spi_plant1', 'spi_plant2', 'spi_plant3', 'spi_plant4', 'spi_rotary', 'spi_soda']
     __path_gen = (os.path.join(__root_path, __p) for __p in paths)
     with mp.Pool(6) as pool:

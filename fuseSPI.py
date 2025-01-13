@@ -157,7 +157,7 @@ def main(result_path: str):
 
 
 if __name__ == '__main__':
-    __root_path = r"measurements\all_spis"
+    __root_path = os.path.join("measurements", "all_spis")
     paths = ['spi_keti', 'spi_plant1', 'spi_plant2', 'spi_plant3', 'spi_plant4', 'spi_rotary', 'spi_soda']
     __path_gen = (os.path.join(__root_path, __p) for __p in paths)
     with mp.Pool(6) as pool:
