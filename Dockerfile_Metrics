@@ -1,0 +1,19 @@
+FROM python:3.9-bullseye
+LABEL authors="lucas"
+
+# get the JVM into the docker for pyspi
+RUN apt-get update && apt-get install default-jre -y
+
+# install pytorch for cpu as we do not really need it, and cpu version takes way less memory in image
+RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+
+# get the requirements and install them
+COPY requirements_metrics.txt ./requirements_metrics.txt
+RUN pip install -r requirements_metrics.txt
+
+# create the directory we will be working in
+RUN mkdir /app
+WORKDIR /app
+CMD /bin/bash
+# CMD python evaluateSPI.py; python fuseSPI.py

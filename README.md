@@ -30,12 +30,18 @@ following steps:
 4. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
 5. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
 
-We also provide a [dockerfile](./Dockerfile) an accompanying [docker compose file](./compose.yaml). You can start the
-container by installing [docker](https://docs.docker.com/get-started/get-docker/) and then navigating to
-[http://127.0.0.1:8081/notebooks/plots_results_paper.ipynb](http://127.0.0.1:8081/notebooks/plots_results_paper.ipynb)
-after the build and start up is finished.
+This repository also already contains the intermediate results from step 2. Therefore, you could start at step three
+right away after cloning the repository.
 
-This repository also already contains the intermediate results from step 2. Therefore, you could start at step three right away after cloning the repository.
+We also provide a [dockerfile](./Dockerfile) an accompanying [docker compose file](./compose.yaml). You can start the
+container by installing [docker](https://docs.docker.com/get-started/get-docker/), running the command 
+`docker compose up`, waiting for the evaluation to finish, clicking the link printed in the output (that starts with
+http://127.0.0.1:8081/tree and contains the access token) after the build and  start up is finished and then navigating 
+to the notebook.
+
+If you only want to recreate the plots using the pre-computed files `docker compose up notebook` suffices. If you only
+want to recreate the evaluation metrics from the pre-computed similarity metrics you can run 
+`docker compose up metrics`.
 
 # Contact
 Find our contact information [here](https://www.cs6.tf.fau.eu/person/lucas-weber/).

@@ -1,13 +1,14 @@
+import os
+import collections
+
+from glob import glob
 import numpy as np
-import evaluateSPI as evspi
 import snf
 import pyspi.calculator
-from glob import glob
-import os
 import pandas as pd
-import collections
 import sklearn
-import multiprocessing as mp
+
+import evaluateSPI as evspi
 
 
 def fuse(affinity_list: list[np.ndarray], method: str = 'snf'):
@@ -106,7 +107,7 @@ def main(result_path: str):
 
     # start the PySPI package once (so all JVM and octave are active)
     with evspi.HiddenPrints():
-        calc = pyspi.calculator.Calculator(subset='fast')
+        calc = pyspi.calculator.Calculator(subset='fabfour')
 
     # load the results
     result_df, measures, timing_dict, defined, terminated, undefined = evspi.find_and_load_results(result_path, dataset)
@@ -160,6 +161,5 @@ if __name__ == '__main__':
     __root_path = os.path.join("measurements", "all_spis")
     paths = ['spi_keti', 'spi_plant1', 'spi_plant2', 'spi_plant3', 'spi_plant4', 'spi_rotary', 'spi_soda']
     __path_gen = (os.path.join(__root_path, __p) for __p in paths)
-    with mp.Pool(6) as pool:
-        for _ in pool.imap_unordered(main, __path_gen):
-            pass
+    for __path in __path_gen:
+        main(__path)

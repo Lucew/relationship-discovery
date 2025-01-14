@@ -1,8 +1,8 @@
-FROM jupyter/base-notebook:x86_64-python-3.11.6
+FROM quay.io/jupyter/scipy-notebook
 LABEL authors="lucas"
 
 # get the requirements and install them
-COPY requirements.txt ./requirements.txt
-RUN pip install -r requirements.txt
+COPY requirements_notebook.txt ./requirements_notebook.txt
+RUN pip install -r requirements_notebook.txt
 
-ENTRYPOINT jupyter notebook --ip 0.0.0.0 --port 8081 --no-browser --allow-root /app/plots_results_paper.ipynb
+CMD jupyter notebook --ip 0.0.0.0 --port 8081 --no-browser --allow-root /app/plots_results_paper.ipynb

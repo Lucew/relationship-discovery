@@ -1,0 +1,7 @@
+pyarrow
+pandas
+matplotlib
+seaborn
+notebook
+scipy
+networkx

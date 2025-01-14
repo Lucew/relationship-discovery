@@ -1,5 +1,17 @@
 services:
-  reproduce:
+  metrics:
+    build:
+      context: .
+      dockerfile: Dockerfile_Metrics
+    volumes:
+      - ./:/app
+    deploy:
+      resources:
+        limits:
+          memory: 32gb
+        reservations:
+          memory: 25gb
+  notebook:
     build: .
     ports:
       - "8081:8081"
