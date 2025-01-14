@@ -330,7 +330,7 @@ def compute_clustering(spi_df: pd.DataFrame, measures: list[str], results: pd.Da
         np.fill_diagonal(currtab.values, 1)
 
         # make some clustering
-        clustering = SpectralClustering(n_clusters=num_clusters, affinity='precomputed')
+        clustering = SpectralClustering(n_clusters=num_clusters, affinity='precomputed', random_state=42)
         predicted_labels = clustering.fit_predict(currtab)
 
         # evaluate the clustering
