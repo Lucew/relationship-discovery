@@ -154,6 +154,7 @@ def main(result_path: str):
 
     # save the results for quick loading
     results.to_parquet(os.path.join("results" ,f'result_fused_{os.path.split(result_path)[-1]}.parquet'))
+    print('---------------------------------------------------------------------------------------')
     return results
 
 
