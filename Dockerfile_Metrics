@@ -1,10 +1,11 @@
-FROM python:3.9-bullseye
+FROM python:3.11-slim-bullseye
 LABEL authors="lucas"
 
 # get the JVM into the docker for pyspi
 RUN apt-get update && apt-get install default-jre -y
 
 # install pytorch for cpu as we do not really need it, and cpu version takes way less memory in image
+RUN pip install --upgrade pip
 RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 
@@ -12,8 +13,15 @@ RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
 COPY requirements_metrics.txt ./requirements_metrics.txt
 RUN pip install -r requirements_metrics.txt
 
+# some black magic to not receive segmentation faults and core dumps with this special mix of jpype (from pyspi, scipy
+# and numpy), when the jvm is active numpy crashes...
+# https://github.com/jpype-project/jpype/issues/808
+# https://gitlab.cern.ch/scripting-tools/pyjapc/-/issues/17
+ENV OMP_NUM_THREADS=1
+
 # create the directory we will be working in
 RUN mkdir /app
 WORKDIR /app
-CMD /bin/bash
-# CMD python evaluateSPI.py; python fuseSPI.py
+
+# CMD /bin/bash
+CMD python evaluateSPI.py; python fuseSPI.py
