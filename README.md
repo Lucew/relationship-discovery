@@ -41,7 +41,7 @@ to the notebook.
 
 If you only want to recreate the plots using the pre-computed files `docker compose up notebook` suffices. If you only
 want to recreate the evaluation metrics from the pre-computed similarity metrics you can run 
-`docker compose up metrics`.
+`docker compose run metrics`.
 
 # Contact
 Find our contact information [here](https://www.cs6.tf.fau.eu/person/lucas-weber/).
