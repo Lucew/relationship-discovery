@@ -99,6 +99,7 @@ def get_measure_subset(subset_name: str):
 def main(result_path: str):
 
     # get the dataset from the result folder and make sure there is only one
+    print(os.path.join(result_path, '*.parquet'))
     dataset_path = glob(os.path.join(result_path, '*.parquet'))
     assert len(dataset_path) == 1, f'There is more than one dataset in the result path: {dataset_path}.'
     dataset_path = dataset_path.pop()
