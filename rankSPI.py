@@ -374,6 +374,15 @@ def make_parallel_vertical_coordinates(ranks: pd.DataFrame, overall_rank: pd.Dat
         return fig
 
 
+def make_rank(overall_rank: pd.DataFrame):
+    # get the n-smallest ranks and write them into a table
+    overall_rank = overall_rank.copy()
+    overall_rank['group'] = [ele.split('_', 1)[0] for ele in overall_rank.index]
+    overall_rank = overall_rank.groupby('group').min()
+    overall_rank = overall_rank.sort_values('Performance')
+    return overall_rank
+
+
 def make_results_table(overall_rank: pd.DataFrame):
 
     # get the n-smallest ranks and write them into a table
