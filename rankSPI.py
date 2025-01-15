@@ -375,7 +375,8 @@ def make_parallel_vertical_coordinates(ranks: pd.DataFrame, overall_rank: pd.Dat
 
 
 def make_rank(overall_rank: pd.DataFrame):
-    # get the n-smallest ranks and write them into a table
+    # _, _, overall_rank, _ = rspi.make_create_ranks(metric_subset="all", dataset_subset="all", use_fused=False)
+    # overall_rank = rspi.make_rank(overall_rank)
     overall_rank = overall_rank.copy()
     overall_rank['group'] = [ele.split('_', 1)[0] for ele in overall_rank.index]
     overall_rank = overall_rank.groupby('group').min()
