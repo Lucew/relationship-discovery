@@ -31,11 +31,12 @@ evaluation.
 
 Take the following steps to recreate the results
 1. Install [docker](https://docs.docker.com/get-started/get-docker/) on your system
-2. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics`)
-3. Start the jupyther server with `docker compose up notebook`
-4. Click the link printed in the output (that starts with http://127.0.0.1:8081/tree and contains the access token)
-5. Navigate to the notebook named [plots_results_paper.ipynb](./plots_results_paper.ipynb)
-6. Run the notebook
+2. Clone this repository
+3. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics`)
+4. Start the jupyther server with `docker compose up notebook` (or `docker compose run notebook`)
+5. Click the link printed in the output (that starts with http://127.0.0.1:8081/tree and contains the access token)
+6. Navigate to the notebook named [plots_results_paper.ipynb](./plots_results_paper.ipynb)
+7. Run the notebook
 
 On linux distributions you may need to prepend `sudo` to all commands, e.g. `sudo docker compose run metrics` 
 (as docker requires root).
@@ -57,7 +58,7 @@ within the paper due to the following reason:
 > The implementation of the different relationship measures is not optimized (some even call external java and 
 > octave code). Therefore, we did not want to compare the relationship measures on their evaluation times.
 
-But we measured the execution times during our experiments see the interest in analyzing them. We publishe them in
+But we measured the execution times during our experiments see the interest in analyzing them. We publish them in
 this repository using the notebook [analyze_timings.ipynb](./analyze_timings.ipynb). We advise for careful
 interpretation of the timings. The notebook can also be run using our provided notebook docker container as explained
 before.
