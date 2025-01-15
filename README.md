@@ -34,11 +34,12 @@ evaluation.
 Take the following steps to recreate the results
 1. Install [docker](https://docs.docker.com/get-started/get-docker/) on your system
 2. Clone this repository
-3. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics`)
-4. Start the jupyther server with `docker compose up notebook` (or `docker compose run notebook`)
-5. Click the link printed in the output (that starts with http://127.0.0.1:8081/tree and contains the access token)
-6. Navigate to the notebook named [plots_results_paper.ipynb](./plots_results_paper.ipynb)
-7. Run the notebook
+3. Navigate to the repository folder within a console
+4. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics`)
+5. Start the jupyther server with `docker compose up notebook` (or `docker compose run notebook`)
+6. Click the link printed in the output (that starts with http://127.0.0.1:8081/tree and contains the access token)
+7. Navigate to the notebook named [plots_results_paper.ipynb](./plots_results_paper.ipynb)
+8. Run the notebook
 
 On linux distributions you may need to prepend `sudo` to all commands, e.g. `sudo docker compose run metrics` 
 (as docker requires root).
@@ -46,12 +47,13 @@ On linux distributions you may need to prepend `sudo` to all commands, e.g. `sud
 ## Manual Reproduction
 In order to reproduce the results of our paper without docker, take the following steps:
 1. Clone this repository.
-2. Install the necessary requirements using the `requirements.txt`
-3. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (paper: section 3.3) and produce the ranking of the relationship measures (paper: section 3.4)
-4. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
-5. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
+2. Navigate to the repository folder within a console
+3. Install the necessary requirements using the `requirements.txt`
+4. Run `python evaluateSPI.py` and `python fuseSPI.py` to compute the evaluation metrics (paper: section 3.3) and produce the ranking of the relationship measures (paper: section 3.4)
+5. Using the jupyther notebook [plots_results_paper.ipynb](./plots_results_paper.ipynb) you can then reproduce all plots of the paper
+6. Run `python absoluteResultsTable.py` to create the .tex file for table 6 in the paper
 
-This repository also already contains the intermediate results from step 2. Therefore, you could start at step three
+This repository also already contains the intermediate results from step three. Therefore, you could start at step four
 right away after cloning the repository.
 
 ## Timing measurements
