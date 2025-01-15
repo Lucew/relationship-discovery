@@ -35,7 +35,7 @@ Take the following steps to recreate the results
 1. Install [docker](https://docs.docker.com/get-started/get-docker/) on your system
 2. Clone this repository
 3. Navigate to the repository folder within a console
-4. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics`)
+4. [Skip this step if precomputed metrics are okay] Run the evaluation by `docker compose up metrics` (or `docker compose run metrics` - takes around 10-15 min. to complete)
 5. Start the jupyther server with `docker compose up notebook` (or `docker compose run notebook`)
 6. Click the link printed in the output (that starts with http://127.0.0.1:8081/tree and contains the access token)
 7. Navigate to the notebook named [plots_results_paper.ipynb](./plots_results_paper.ipynb)
