@@ -50,6 +50,18 @@ In order to reproduce the results of our paper without docker, take the followin
 
 This repository also already contains the intermediate results from step 2. Therefore, you could start at step three
 right away after cloning the repository.
+
+## Timing measurements
+Our reviewers legitimately asked for timing measurements for each of the relationship measures. We did not provide these
+within the paper due to the following reason:
+> The implementation of the different relationship measures is not optimized (some even call external java and 
+> octave code). Therefore, we did not want to compare the relationship measures on their evaluation times.
+
+But we measured the execution times during our experiments see the interest in analyzing them. We publishe them in
+this repository using the notebook [analyze_timings.ipynb](./analyze_timings.ipynb). We advise for careful
+interpretation of the timings. The notebook can also be run using our provided notebook docker container as explained
+before.
+
 ----
 # Contact
 Find our contact information [here](https://www.cs6.tf.fau.eu/person/lucas-weber/).
