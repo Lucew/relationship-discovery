@@ -14,7 +14,6 @@ import dill
 from tqdm import tqdm
 import numpy as np
 import pandas as pd
-import pyarrow
 
 
 # https://stackoverflow.com/a/45669280
