@@ -17,7 +17,9 @@ parameters in a shell.
 
 ## Precomputed relationship measures
 Computing over 200 relationship measures for every of the seven datasets is the main computational bottleneck. Even when
-distributing the computations on a capable compute server, the results take days to complete.
+distributing the computations on a capable compute server, the results take days to complete. Using the precomputed
+relationship measures and computing the metrics takes around ten minutes. One can parallelize this, but we decided to
+keep it sequential to keep the reproducibility as easy as possible.
 
 Therefore, we provide the [precalculated similarity/distance matrices](./measurements) within this repository. Computing the relationship
 measures uses [available](https://github.com/DynamicsAndNeuralSystems/pyspi) and
