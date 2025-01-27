@@ -56,6 +56,10 @@ In order to reproduce the results of our paper without docker, take the followin
 This repository also already contains the intermediate results from step three. Therefore, you could start at step four
 right away after cloning the repository.
 
+> The reproducibility runs error free on x86 processors (Intel, AMD), but there are known dependency problems 
+> (e.g., pyEMD) on ARM processors (e.g., Apple M1-M4). We specified Rosetta 2 emulation for MacOS, but this will
+> slow down computations. We recommend using an x86 processor to reproduce the results.
+
 ## Timing measurements
 Our reviewers legitimately asked for timing measurements for each of the relationship measures. We did not provide these
 within the paper due to the following reason:
