@@ -2,6 +2,8 @@ services:
   metrics:
     build:
       context: .
+      platforms:
+        - "linux/amd64"
       dockerfile: Dockerfile_Metrics
     volumes:
       - ./:/app
