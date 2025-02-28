@@ -24,4 +24,5 @@ RUN mkdir /app
 WORKDIR /app
 
 # CMD /bin/bash
+# CMD python Similarities2CSV
 CMD python evaluateSPI.py; python fuseSPI.py

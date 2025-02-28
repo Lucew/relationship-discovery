@@ -15,6 +15,15 @@ parameters in a shell.
 ----
 # Reproducibility
 
+## Can you have the data?
+This repository contains the complete collections of similarity matrices computed for all the seven data sets
+mentioned in the paper. As we have received requests to make them accessible as CSV files, we now have added a script to
+transform the files in this repository to CSV. In order to do that, clone this repository, install the dependencies and
+run the script `Similarities2CSV.py`.
+
+In case you don't want to install the dependencies, you can also do it via docker by commenting out the last line and 
+commenting in the line `CMD python Similarities2CSV.py` in the metrics [dockerfile](./Dockerfile_Metrics).
+
 ## Precomputed relationship measures
 Computing over 200 relationship measures for every of the seven datasets is the main computational bottleneck. Even when
 distributing the computations on a capable compute server, the results take days to complete. Using the precomputed
